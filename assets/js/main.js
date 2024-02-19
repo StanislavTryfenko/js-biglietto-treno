@@ -1,11 +1,15 @@
 const km = Number(prompt("Quanti km devi percorrere?"));
-console.log(km)
 
 const age = Number(prompt("Quanti anni hai?"));
-console.log(age);
 
-const price = 
+if( age < 18){
+    price = (Number(km) * 0.21 * 80 / 100);
+}
+else if (age > 65) {
+    price = (Number(km) * 0.21 * 60 / 100);
+} 
+else {
+    price = (Number(km) * 0.21);
+}
 
-
-
-alert(price.toFixed(2))
+alert("Il biglietto costa: \n \n" + price.toFixed(2));
