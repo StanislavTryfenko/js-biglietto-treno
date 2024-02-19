@@ -19,3 +19,15 @@ Questo richiederà un minimo di ricerca - come quelle fatte in classe :occhiolin
 -num.tofixed(2)
 -poi ci penso
 
+##pseudocode
+
+-prompt km da percorrere
+-prompt età
+
+-prezzo
+
+se(age<18) km*0.21*80/100
+
+altrimenti se (age > 65) km*0.21*60/100
+
+Altrimenti km*0.21
